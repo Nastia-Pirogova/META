@@ -1,0 +1,574 @@
+@media(max-width: 1440px) {
+    .header__menu {
+        position: static;
+    }
+    .header__content {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: auto;
+    }
+    .header__btn {
+        margin: 0px 0px 102px 0px;
+    }
+    .header__text {
+        width: 500px;
+        margin: auto;
+        padding: 0px 20px 30px 10px;
+    }
+    .header__title {
+        width: auto;
+        margin: 134px 10px 40px 10px;
+    }
+    .autoplay {
+        display: block !important;
+        height: 263px;
+    }
+    .artist__box-none {
+        display: none;
+    }
+    .artist__media {
+        display: none;
+    }
+    .team-meet__img {
+        width: 270px;
+    }
+    .team-meet {
+        justify-content: space-between;
+    }
+    .team-meet__box {
+        width: 270px;
+    }
+    .team-meet__about {
+        width: 100%;
+        margin: 0 0px 18px 0px;
+    }
+    .slick-prev,
+    .slick-arrow,
+    .slick-next {
+        display: none !important;
+    }
+    .tabs>label {
+        display: inline-block;
+    }
+    .tabs {
+        font-size: 0;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1280px) {
+    .wave-nft__title {
+        margin: 0 0px 41px 30px;
+    }
+    .wave-nft__content {
+        justify-content: space-between;
+    }
+    .our-partners {
+        img {
+            width: 910px;
+        }
+    }
+    .asked__inner {
+        width: 1103px;
+        padding: 245px 180px 115px 15px;
+        margin: auto;
+    }
+    .join__content {
+        justify-content: space-between;
+    }
+    .footer {
+        padding: 67px 75px 75px 75px;
+        &__inner {
+            display: block !important;
+        }
+    }
+}
+
+@media(max-width: 1175px) {
+    .wave-nft__title {
+        margin: 0 0px 41px 20px;
+        font-size: 32px;
+        line-height: 34px;
+    }
+}
+
+@media(max-width: 1250px) {
+    .row {
+        display: block;
+    }
+    .asked__inner {
+        width: 970px;
+    }
+    .asked__content {
+        img {
+            width: 285px;
+        }
+    }
+}
+
+@media(max-width: 1020px) {
+    .wave-nft__description {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 0 15px;
+    }
+    .wave-nft__border {
+        height: 75px;
+    }
+    .wave-nft__container {
+        width: 486px;
+    }
+    .wave-nft__text {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .wave-nft__img {
+        img {
+            width: 310px;
+        }
+    }
+    .our-partners {
+        img {
+            width: 610px;
+        }
+    }
+    .asked__inner {
+        width: 950px;
+        justify-content: flex-start;
+        padding: 160px 20px 115px 20px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1000px) {
+    .asked__content {
+        img {
+            display: none;
+        }
+    }
+    .asked__inner {
+        display: block;
+        width: 100%;
+    }
+    .asked__title {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .join__img {
+        margin: auto;
+        img {
+            width: 100%;
+        }
+    }
+    .join__content {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 950px) {
+    .header__title {
+        font-size: 38px;
+    }
+    .header__img {
+        margin: 12px 0 0 0;
+        img {
+            width: 650px;
+        }
+    }
+    .menu__btn-media {
+        display: block;
+        background-color: #000;
+        border: none;
+    }
+    .menu__flex {
+        transform: translateY(-150%);
+        transition: all .5s;
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: #010203;
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .menu__flex.active {
+        transform: translateY(0);
+    }
+    .menu__btn-list {
+        display: block;
+        margin: auto;
+    }
+    .logo {
+        position: relative;
+        z-index: 20;
+    }
+    .links {
+        position: relative;
+        z-index: 20;
+    }
+    li.menu__btn {
+        margin: 35px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .menu__links {
+        margin: auto;
+    }
+    .team-meet__img {
+        width: 210px;
+    }
+    .team-meet__box {
+        width: 210px;
+    }
+    .story__content {
+        width: 791px;
+    }
+    .story__container-description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .story__container-border {
+        height: 96px;
+    }
+    .partners {
+        width: 516px;
+        margin: 25px 45px 0px 25px;
+    }
+    .story__content-logo {
+        width: 488px;
+        margin: 30px 0px 0px 0px;
+    }
+    .story__content--2 {
+        height: 301px;
+        width: 579px;
+    }
+    .future {
+        width: 680px;
+        margin: 20px 0px 0px 20px;
+    }
+    .story__content--3 {
+        width: 728px;
+    }
+}
+
+@media (max-width: 920px) {
+    .wave-nft__container {
+        width: 359px;
+    }
+    .row__media {
+        display: block;
+    }
+    .row {
+        display: none;
+    }
+    .asked__title {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .meta-stories__forms-container {
+        margin: 64px 0 0 0;
+    }
+    .contact-meta__inner {
+        display: block;
+    }
+}
+
+@media (max-width: 850px) {
+    // .team-meet {
+    //     display: block !important;
+    // }
+    .team-meet__slider {
+        display: block !important;
+    }
+    .slick-slide {
+        img {
+            margin: auto;
+        }
+    }
+    .team-meet__media {
+        display: none !important;
+    }
+}
+
+@media (max-width: 790px) {
+    .header__img {
+        img {
+            width: 500px;
+        }
+    }
+    .logo {
+        img {
+            width: 157px;
+        }
+    }
+    .menu__btn-list {
+        width: 300px;
+    }
+    .wave-nft__title {
+        width: 237px;
+    }
+    .wave-nft__img {
+        img {
+            width: 212px;
+        }
+    }
+    .tabs>label {
+        padding: 8px 39px 14px 20px;
+    }
+    .future {
+        width: 368px;
+    }
+    .story__content--3 {
+        width: 419px;
+        height: 396px;
+    }
+    .story__content--2 {
+        height: 307px;
+        width: 425px;
+    }
+    .partners {
+        width: 358px;
+    }
+    .story__content-logo {
+        width: 358px;
+    }
+    .story__content-img {
+        display: none;
+    }
+    #tab-btn-1:checked~#content-1 {
+        display: block;
+    }
+    .story__container {
+        height: 468px;
+        width: 372px;
+        margin: 40px 0px 20px 20px;
+    }
+    .story__content {
+        width: 419px;
+    }
+}
+
+@media (max-width: 710px) {}
+
+@media (max-width: 700px) {
+    .wave-nft__content {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .wave-nft__title {
+        width: 400px;
+        padding: 79px 0px 41px 0px;
+        font-size: 32px;
+        line-height: 34px;
+        margin: auto;
+    }
+    .wave-nft__box {
+        padding-bottom: 50px;
+    }
+    .wave-nft__container {
+        margin: auto;
+        width: 100%;
+    }
+    .join__img {
+        display: none;
+    }
+    .join__content {
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .join__title {
+        width: 100%;
+    }
+    .join__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .meta-stories__forms {
+        width: 100%;
+    }
+    .meta-stories__container {
+        width: 220px;
+    }
+}
+
+@media (max-width: 620px) {
+    .roadmap__title {
+        text-align: center;
+        margin-bottom: -60px;
+        padding-top: 76px;
+    }
+    .roadmap__container-top {
+        width: 318px;
+    }
+    .roadmap__container {
+        width: 320px;
+    }
+    .roadmap__line {
+        margin: 40px 0 0 168px;
+    }
+    .our-partners {
+        img {
+            width: 410px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .header__title {
+        font-size: 29px;
+    }
+    .header__img {
+        img {
+            width: 340px;
+        }
+    }
+    .header__text {
+        width: 300px;
+    }
+    .header__btn {
+        margin: 0px 0px 17px 0px;
+    }
+}
+
+@media (max-width: 525px) {
+    .wave-nft__description {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .wave-nft__border {
+        height: 51px;
+    }
+    .our-partners {
+        img {
+            width: 310px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .story__content--3 {
+        width: 310px;
+        height: 532px;
+    }
+    .story__container {
+        height: 492px;
+        width: 277px;
+        margin: 40px 0px 20px 20px;
+    }
+    .story__content--2 {
+        height: 450px;
+        width: 310px;
+    }
+    .story__content-logo {
+        width: 266px;
+    }
+    .story__content {
+        width: 310px;
+        height: 705px;
+    }
+    .story__container-border {
+        height: 146px;
+    }
+    .tabs>label {
+        padding: 8px 43px 14px 20px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 435px) {
+    .wave-nft__description {
+        font-size: 11px;
+        line-height: 15px;
+        margin: 0;
+    }
+    .wave-nft__border {
+        display: none;
+    }
+    .wave-nft__title {
+        width: 279px;
+    }
+    .wave-nft__title {
+        width: 273px;
+        padding: 79px 0px 41px 0px;
+        font-size: 24px;
+        line-height: 30px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__title {
+        font-size: 29px;
+        width: 300px;
+        margin: auto;
+        line-height: 40px;
+    }
+    .header__text {
+        padding: 30px 10px 30px 10px;
+    }
+    .header__menu {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .header__img {
+        img {
+            width: 200px;
+        }
+    }
+    .roadmap__container-top {
+        width: 236px;
+        height: 98px;
+    }
+    .roadmap__container {
+        width: 240px;
+    }
+    .roadmap__box {
+        img {
+            display: none;
+        }
+    }
+    .roadmap__container-box {
+        width: 216px;
+    }
+    .roadmap__container-number {
+        padding: 25px;
+    }
+    .roadmap__line {
+        margin: 40px 0 0 122px;
+    }
+    .our-partners {
+        padding-top: 86px;
+        padding-bottom: 80px;
+        img {
+            width: 344px;
+        }
+    }
+    .asked__title {
+        font-size: 31px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 340px) {
+    .wave-nft__text {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .asked__title {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}

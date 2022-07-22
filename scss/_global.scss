@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Audiowide', cursive;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #000;
+    color: #FFFFFF;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.logo {
+    cursor: pointer !important;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer !important;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.menu__btn-media {
+    display: none;
+    width: 40px;
+    padding: 0;
+    position: relative;
+    z-index: 20;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menu__btn-media span {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+
+.menu__btn-media span::before,
+.menu__btn-media span::after {
+    content: '';
+    width: 40px;
+    background-color: #fff;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+}
+
+.menu__btn-media span::before {
+    top: -10px;
+}
+
+.menu__btn-media span::after {
+    top: 10px;
+}
